@@ -16,7 +16,7 @@ client.on('ready', () => {
     client.user.setActivity('Dynasty Music.',{type: 'LISTENING'});
 });
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const prefix = "$";
+const prefix = "N";
 
 client.on('message', message => {
 	if(message.content === prefix + 'joinplz') {
@@ -219,7 +219,7 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
 
-const adminprefix = "$";//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
+const adminprefix = "N";//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
 const devs = ['324249224969584642'];//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
 client.on('message', message => {//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
   var argresult = message.content.split(` `).slice(1).join(' ');//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
@@ -460,17 +460,16 @@ ten.on('message', message => {
 
 
 //login
-thm.login("NTQ4NjYwMjIwMzc3Njk0MjE4.D1IjKQ.oWZg2-ZUp7HViQXSz13Y6k2bmw8");
-tndm.login("NTQ4NjYwMjIwMzc3Njk0MjE4.D1IjKQ.oWZg2-ZUp7HViQXSz13Y6k2bmw8");
-firstm.login("NTQ4NjYwMjIwMzc3Njk0MjE4.D1IjKQ.oWZg2-ZUp7HViQXSz13Y6k2bmw8");
-fou.login("NTQ4NjYwMjIwMzc3Njk0MjE4.D1IjKQ.oWZg2-ZUp7HViQXSz13Y6k2bmw8");
-fiv.login("NTQ4NjYwMjIwMzc3Njk0MjE4.D1IjKQ.oWZg2-ZUp7HViQXSz13Y6k2bmw8");
-six.login("NTQ4NjYwMjIwMzc3Njk0MjE4.D1IjKQ.oWZg2-ZUp7HViQXSz13Y6k2bmw8");
-seven.login("NTQ4NjYwMjIwMzc3Njk0MjE4.D1IjKQ.oWZg2-ZUp7HViQXSz13Y6k2bmw8");
-eight.login("NTQ4NjYwMjIwMzc3Njk0MjE4.D1IjKQ.oWZg2-ZUp7HViQXSz13Y6k2bmw8");
-nine.login("NTQ4NjYwMjIwMzc3Njk0MjE4.D1IjKQ.oWZg2-ZUp7HViQXSz13Y6k2bmw8");
-ten.login("NTQ4NjYwMjIwMzc3Njk0MjE4.D1IjKQ.oWZg2-ZUp7HViQXSz13Y6k2bmw8");
-
+thm.login("NDc4ODk3ODc4MTY1ODgwODMz.DlRgkA.IBB2sXZU0IqMuEZ0vdaAE2L_kGE");
+tndm.login("NDc4OTA4MTcxNjU4NzIzMzU5.DlRhkw.GyuxTAH20HVs0ulc2zdqU5_IOi4");
+firstm.login("NDc4OTA4NDcyNTE2MjgwMzIw.DlR9pQ.5QRI-1dY8OA3DjGumXVZxqnvyrY");
+fou.login("NDc4OTM4NzY2NDA1NTMzNjk2.DlR-NA.Zzl6SXWrKzdocxXB3JfYs5pKWLg");
+fiv.login("NDc4OTM5Mzk1MzQ5NTQ0OTYx.DlR-3w.7Qijr2NcrFojOhlv5yoXQBgnj1k");
+six.login("NDc4OTQxNzUxOTQ0Njc1Mzg5.DlSBmg.NQkBj8asE5CBghjN3Dqvlf9CbHk");
+seven.login("NDc4OTQzNjU0NzE1NTg4NjEx.DlSGVw.TcdA8FxjFMemNjcLkPB7G4oBZaM");
+eight.login("NDc4OTQ4MDM5Njc2MTMzMzc4.DlSHHg.Qa4wBdoPUedMAxIf-t-FX3xk3Yc");
+nine.login("NDc4OTUxODU0NjkzMjg1OTA5.DlSKWw.g5i1j0tkLYBRpKUdnir6NMWt1_U");
+ten.login("NDc4OTUyMjUxMjE4NTkxNzQ0.DlSK_g.ttQ3jH8djviyE1zBSEBiJE3CSD0");
 
 
 client.login(process.env.TOKEN);
